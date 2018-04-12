@@ -23,7 +23,7 @@ h1, h2, h3, a {color: purple;text-align: center;text-shadow:
     1px -1px 0 #FFF,
     -1px 1px 0 #FFF,
      1px 1px 0 #FFF;}
-p {margin-left: 5%; margin-right: 5%;}
+p {margin-left: 5%; margin-right: 5%;font-family: Arial, Helvetica, sans-serif}
 
 .column {
 	float: left;
