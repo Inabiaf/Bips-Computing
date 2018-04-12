@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML Form</title>
+<link rel="stylesheet" type="text/css" href="simple.css">
+</head>
+
+<form id="mailingForm" onsubmit="FormValidate()">
+	<table>
+		<tr>
+			<td>Name:</td>
+			<td><input type="text" name="Name" size="80"></td>
+		</tr>
+		<tr>
+			<td>Phone:</td>
+			<td><input type="text" name="Phone" size="80"></td>
+		</tr>
+		<tr>
+			<td>Email:</td>
+			<td><input type="text" name="Email" size="80"></td>
+		</tr>
+        <tr>
+            <td>Do you agree to be on our mailing list?
+            <input type="checkbox" name="reply" value="yes"></td>
+ 			<td>
+     		<input type="submit"
+            value="Submit">
+            <a href="Homepage.html">&lt;Return&gt;</a>
+ 			</td>
+		</tr>
+	</table>
+</form>
+<script src="FormValidate.js"></script>
+</html>

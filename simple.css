@@ -1,0 +1,26 @@
+/* simple.css */
+body {background-color: lightblue;}
+#Banner {background-image: url(servers_room.jpg);background-position: center center, center top;background-repeat: no-repeat;background-size:100%}
+.navigation { 
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	background: lightskyblue;
+	padding: 0 10px;
+	border: 1px solid rgba(238,238,238 ,1);
+	border-radius: 5px;
+	height: 40px;
+	align-items: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.navigation a {
+	text-decoration: none;
+	padding: auto;
+}
+h1, h2, h3, a {color: purple;text-align: center;text-shadow:
+   -1px -1px 0 #FFF,  
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+     1px 1px 0 #FFF;}
+p {margin-left: 5%; margin-right: 5%;}
