@@ -1,6 +1,11 @@
 /* simple.css */
 body {background-color: lightblue;}
-#Banner {background-image: url(servers_room.jpg);background-position: center center, center top;background-repeat: no-repeat;background-size:100%}
+#Banner {background-image: url(servers_room.jpg);background-position: center center, center top;background-repeat: no-repeat;background-size:200%;background-attachment: fixed;}
+@media only screen and (max-device-width:1000px) {
+    #Banner {
+        background-attachment: scroll;
+    }
+}
 .navigation { 
 	display: flex;
 	list-style: none;
